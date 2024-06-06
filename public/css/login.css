@@ -1,0 +1,112 @@
+body {
+    background-color: #f1f1f1
+}
+
+.btn-submit {
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    color: black
+}
+
+.btn-submit:hover {
+    background-color: #5c636a;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #BABAE8;
+}
+
+.card-logo {
+    background-color: #222866;
+    border-radius: 25px;
+}
+
+.card-form {
+    background-color: #BABAE8;
+    border-radius: 25px;
+}
+
+@media(max-width: 768px) {
+    .card-text {
+        font-size: 10px
+    }
+}
+
+@media(max-width: 425px) {
+    .card-text {
+        font-size: 10px
+    }
+
+    .card-logo {
+        border-radius: 25px;
+    }
+}
+
+.captcha-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-container,
+.captcha {
+    width: 48%;
+    /* Memberikan sedikit ruang untuk margin */
+}
+
+.captcha span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reload {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.captcha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.captcha span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.captcha button {
+    width: 100%;
+    max-width: 200px;
+    /* padding: 10px; */
+    font-size: 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.captcha button:hover {
+    background-color: #c82333;
+}
+
+@media (min-width: 600px) {
+    .captcha {
+        flex-direction: row;
+    }
+
+    .captcha span {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .captcha button {
+        width: auto;
+    }
+}

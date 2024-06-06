@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+  --main: #ff6e01;
+  --bg: #f1e1d2;
+  --black: #000;
+  --white: #fff;
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+*{
+  font-family: 'Roboto', 'sans-serif';
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+html::-webkit-scrollbar{
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: var(--main);
+  border-radius: 5rem;
+}
+
+section{
+  padding: 8rem 7%;
+}
+
+.header{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  background: var(--white);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+  
+.header .logo{
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--black);
+}
+  
+.header .logo i{
+  color: var(--main);
+}
+  
+.header .logo:hover{
+  color: var(--main);
+}
+  
+.header .navbar a{
+  font-size: 3.5rem;
+  color: var(--black);
+  margin: 0 1rem;
+}
+  
+.header .navbar a:hover{
+  color: var(--main);
+}
+  
+.header .icons div{
+  font-size: 2.5rem;
+  margin-left: 1.7rem;
+  cursor: pointer;
+  color: var(--black);
+}
+  
+.header .icons div:hover{
+  color: var(--main);
+}
+  
+#menu-btn{
+  display: none;
+}
+  
+
+  /* tentang */
+.abu{
+  background: var(--bg);
+}
+
+.abu .box-container{
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+  gap: 2rem;
+}
+
+.abu .box-container .image{
+  flex: 1 1 31rem;
+  
+}
+
+.abu .box-container .image img{
+  height: 60%;
+  width: 60%;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  margin-bottom: 15rem;
+  border-radius: 5rem;
+}
+
+.abu .content{
+  flex: 1 1 51rem;
+}
+
+.abu .content .title{
+  font-size: 4rem;
+  color: var(--black);
+  text-align: justify;
+}
+
+.abu .content p{
+  font-size: 1.7rem;
+  color: #444;
+  padding: 1rem 0;
+  line-height: 2;  
+}
+
+
+
+.heading{
+  text-align: center;
+  font-size: 4rem;
+  color: var(--black);
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  padding: 1.2rem 0;
+}
+
+.gallery{
+  background: sienna
+  
+}
+
+.gallery .slide .image{
+  height: 30rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5rem;
+}
+
+.gallery .slide .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  color: var(--white);
+}
+

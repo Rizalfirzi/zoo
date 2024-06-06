@@ -1,0 +1,169 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url('../font/BebasNeue-Regular.otf');
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../font/Poppins-Bold_0.otf');
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../font/Poppins-Regular_0.otf');
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0d1623;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #006cb5;
+    border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0034b5;
+}
+
+#kt_app_wrapper,
+.page-heading,
+.card span {
+    color: #9899aa;
+}
+
+#kt_app_header,
+#kt_app_wrapper,
+#kt_app_footer {
+    background-color: #060b16;
+}
+
+#kt_app_header {
+    border-bottom: 2px solid #323148;
+}
+
+#kt_app_footer {
+    border-top: 2px solid #323148;
+}
+
+.card {
+    border: 2px solid #323148;
+}
+
+.card,
+.map-interface {
+    background-color: #0d1623 !important;
+}
+
+.card .card-header .card-title .card-label {
+    font-family: BebasNeue;
+    font-size: 25px;
+    color: #9899aa;
+}
+
+.card .card-header .card-title .card-label img {
+    width: 25px;
+}
+
+.card span {
+    font-family: Poppins-Regular;
+    font-size: 12px;
+    color: #5d5e66;
+}
+
+.map-interface path[id^='jqvmap1_path'] {
+    stroke: #323148 !important;
+    stroke-width: 2px !important;
+    stroke-opacity: 1 !important;
+}
+
+.map-interface .grouping path {
+    stroke: #9899aa !important;
+    stroke-opacity: 1 !important;
+    stroke-width: 2px !important;
+    fill: none !important;
+}
+
+.highcharts-axis-labels.highcharts-xaxis-labels text {
+    font-family: Poppins-Regular;
+}
+
+select.decorated option:hover {
+    box-shadow: 0 0 10px 100px #1882A8 inset;
+}
+
+.form-control:focus {
+    color: #979caa;
+    background-color: #181c32;
+}
+
+select.widthHeight::-webkit-scrollbar {
+    width: 8px;
+    height: 14px;
+}
+
+select.style::-webkit-scrollbar-track {
+    border: rgb(180, 180, 180);
+    background-color: #060b16;
+}
+
+select.style::-webkit-scrollbar-thumb {
+    background-color: #0061b5;
+    border: 1px solid transparent;
+}
+
+.card .title-legend span.badge.rounded-pill {
+    border-radius: 0 !important;
+
+    width: 10px;
+    height: 10px;
+}
+
+.card .title-legend span {
+    font-size: 12px;
+}
+
+.card .sum-legend span {
+    font-size: 1.4em;
+}
+
+#kerja_chart .highcharts-xaxis>path {
+    stroke: none;
+}
+
+#kerja_chart .highcharts-axis-labels.highcharts-xaxis-labels text[opacity="1"] {
+    color: #b6b8cc !important;
+    fill: #b6b8cc !important;
+}
+
+#kerja_chart .highcharts-axis-labels.highcharts-xaxis-labels text[visibility="visible"] {
+    font-size: 14px !important;
+}
+
+#chart_usia .highcharts-point {
+    stroke: none;
+}
+
+.highcharts-root .status {
+    font-family: Poppins-Bold;
+}
+
+h1 {
+    font-family: BebasNeue;
+    font-size: 20px;
+}
+
+.card-label {
+    font-family: BebasNeue;
+    font-size: 20px;
+}
